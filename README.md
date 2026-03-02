@@ -46,8 +46,7 @@ For S-band it's a bit trickier. You'll have to use advanced mode, and make tempo
 
 Then assemble your S-Band setup, set the frequency to 2262.5 MHz and point your dish at SBIRS-GEO 1 (USA 230). Once you get a SNR readout, you can start adjusting the focal point for best SNR.
 
-## Performance on popular weather satellites
-I've decided to included some performance numbers on weather satellites i commonly receive with this setup.
+## Weather satellite benchmarks
 
 ### Meteor M2-3, M2-4
 
