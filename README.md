@@ -49,15 +49,17 @@ Then assemble your S-Band setup, set the frequency to 2262.5 MHz and point your 
 ## Performance on popular weather satellites
 I've decided to included some performance numbers on weather satellites i commonly receive with this setup.
 
-### Meteor M2-x
+### Meteor M2-3, M2-4
 
 ![](pictures/Low_el_Meteor_HRPT.jpg)
 ![](pictures/Meteor_HRPT.jpg)
 
 ### Metop B/C
 Keep in mind Metop B has intermittent modulator issues, that cause distorted constellation and lower SNR.
-![](pictures/Metop_C.jpg)
+
 ![](pictures/Metop_B_broken_constellation.jpg)
+![](pictures/Metop_C.jpg)
+
 
 ### Elektro L2
 
