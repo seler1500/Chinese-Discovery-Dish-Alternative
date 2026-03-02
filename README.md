@@ -20,7 +20,7 @@ For the feedarm, i'm using a 20 mm aluminum pipe with two printed adapters (prov
 
 ![](pictures/feedarm_coax_notch.jpg)
 
-The backfire helix side adapter is aweeri's [***backfire_helix_compact_adapter_for_discovery_dish.STL***,](https://github.com/Digitelektro/BackfireHelix/blob/main/stl/backfire_helix_compact_adapter_for_discovery_dish.STL) i just added slots for M4 nuts and removed one bolt hole.  
+The backfire helix side adapter is aweeri's [***backfire_helix_compact_adapter_for_discovery_dish.STL***](https://github.com/Digitelektro/BackfireHelix/blob/main/stl/backfire_helix_compact_adapter_for_discovery_dish.STL), i just added slots for M4 nuts and removed one bolt hole.  
 Unfortunately the backfire helix requires tuning the S11 return loss/SWR to perform well, and it's not very beginner friendly because of it. VNA and some tuning knowledge are required. Here is how i do it, but do keep in mind, there are another ways!
 
 ![](pictures/matching_1.jpg)
