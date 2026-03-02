@@ -1,0 +1,31 @@
+{
+    "sbirs_geo": {
+        "name": "SBIRS GEO",
+        "live": [
+        1
+        ],
+        "frequencies": [
+            [
+                "Main",
+                2262.5e6
+            ]
+        ],
+        "parameters": {
+            "samplerate": {
+                "value": 6e6
+            }
+        },
+        "work": {
+            "baseband": {},
+            "soft": {
+                "module": "psk_demod",
+                "parameters": {
+                    "constellation": "oqpsk",
+                    "symbolrate": 2500000,
+                    "rrc_alpha": 0.65,
+                    "pll_bw": 0.003
+                }
+            }
+        }
+    }
+}
