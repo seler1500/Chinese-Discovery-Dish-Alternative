@@ -1,27 +1,27 @@
 # Chinese Discovery Dish Alternative
-A little bit cheaper, portable dish antenna for general weather satellite reception.
+A cheaper, portable dish antenna for general weather satellite reception.
 
 ![](pictures/L-band_winter.jpg)
 
 ## Getting the dish
-Search "LTE MIMO Dish antenna" or "LTE Dish antenna" on AliExpress and you are likely to find it in the top results. You can also try negotiating with seller to buy the dish alone (for a lower price of course) without the mount and the feed, as you'll need different feed for weather satellite reception anyway. The price seems to fluctuate a lot and it's worth waiting for a sale or discount.
+Search "LTE MIMO Dish antenna" or "LTE Dish antenna" on AliExpress and you are likely to find it in the top results. You can also try negotiating with seller to buy the dish alone (for a lower price of course) without the mount and the feed, as you'll need different feed for weather satellite reception anyway. The price seems to fluctuate a lot,  and it's worth waiting for a sale or discount.
 
 ## Dimensions
-The four reflector plates are made out of powder coated aluminum, fit in a regular backpack and assemble into a 60cm prime focus dish.
+The four reflector plates are made out of powder coated aluminum, fit in a regular backpack, and assemble into a 60cm prime focus dish.
 
 ![](pictures/backpack.jpg)
 
 Standard metric hardware is supplied with the dish. M5 for assembling the plates, M6 for attaching the feed/feedarm adapter. I ended up using the supplied bolts, but replaced the nuts with stainless wing nuts to simplify the assembly. Four M6 and eight M5 wing nuts are needed. For attaching the backfire helix, i used three M4x16 nylon bolts with nylon nuts. 
 
 ## The feed and feedarm
-Like i said earlier, you won't be needing the original feed. It's very wideband, linearly polarized... and doesn't perform the best even on linear signals. I highly recommend Digitelektro's backfire helix:
+You likely won't need the original feed. It's very wideband, linearly polarized... and doesn't perform the best even on linear signals. I highly recommend Digitelektro's backfire helix:
 https://github.com/Digitelektro/BackfireHelix  
 For the feedarm, i'm using a 20 mm aluminum pipe with two printed adapters (provided in "3d models" directory). I also recommend cutting a notch in the pipe, to prevent damage to the coax when the dish is dropped.
 
 ![](pictures/feedarm_coax_notch.jpg)
 
 The backfire helix side adapter is aweeri's [***backfire_helix_compact_adapter_for_discovery_dish.STL***](https://github.com/Digitelektro/BackfireHelix/blob/main/stl/backfire_helix_compact_adapter_for_discovery_dish.STL), i just added slots for M4 nuts and removed one bolt hole.  
-Unfortunately the backfire helix requires tuning the S11 return loss/SWR to perform well, and it's not very beginner friendly because of it. VNA and some tuning knowledge are required. Here is how i do it, but do keep in mind, there are another ways!
+The backfire helix requires tuning the S11 return loss/SWR to perform well, and it's not very beginner friendly because of it. VNA and some tuning knowledge are required. Here is how i do it, but do keep in mind, there are another ways!
 
 ![](pictures/matching_1.jpg)
 ![](pictures/matching_2.jpg)
