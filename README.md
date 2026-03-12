@@ -16,7 +16,7 @@ Standard metric hardware is supplied with the dish. M5 for assembling the plates
 ## The feed and feedarm
 You likely won't need the original feed. It's very wideband, linearly polarized - and doesn't even perform well on linear signals. I highly recommend Digitelektro's backfire helix:
 https://github.com/Digitelektro/BackfireHelix  
-For the feedarm, I'm using a 20 mm aluminum pipe with two printed adapters which are provided in "3d models" directory. I also recommend cutting a notch in the pipe, to prevent damage to the coax when the dish is dropped.
+For the feedarm, I'm using a 20 mm aluminum pipe with two printed adapters which are provided in "3d models" directory. I also recommend cutting a notch in the pipe, to prevent damage to the coax when the dish is dropped. 20 mm PVC pipe can be used as well.
 
 ![](pictures/feedarm_coax_notch.jpg)
 
