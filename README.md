@@ -37,7 +37,7 @@ I opted to connect the LNA to the feed with a short coax. To make it easier, I u
 I recommend assembling the dish on a flat, level surface. Start with connecting all plates together with bolts without fully tightening them. Place the dish reflector-side down on a flat surface, and now gradually tighten the bolts. Finally, attach coax to your feed and mount the feedarm and the helix itself.
 
 ## Focal point adjustments
-To get the best performance, I recommend adjusting the focal point on a test signal, like Elektro L2/L3/L4 for L-band, or SBIRS-GEO 1 (USA 230) for S-band.
+To get the best performance, I recommend adjusting the focal point on a test signal, like Elektro L2/L3/L4 for L-band, or SBIRS-GEO for S-band.
 SatDump software is commonly used for weather satellite reception, and it has the required pipelines (at least for L-band) to live decode the signal for real time SNR feedback.
 For L-Band just use Elektro-L and the GGAK pipeline, adjust the focal lenght while watching the SNR. Keep in mind that GGAK pipeline is notoriously "fiddly" to get a lock, sometimes you'll have to tick the SDR frequency a couple kHz up or down to get a lock. If you don't have Elektro-L LOS, Arktika M2 also transmits GGAK on 1703 MHz, and there's a pipeline for it as well, named accordingly. Keep in mind that Arktika M1 does not transmit GGAK at all, and M2 transmits only at certain altitudes; usually > 30000 km.
 For S-band it's a bit trickier; you'll have to use advanced mode and make temporary changes to Metop AHRPT pipeline (modulation to oqpsk, symbol rate to 2500000):
@@ -45,8 +45,10 @@ For S-band it's a bit trickier; you'll have to use advanced mode and make tempor
 ![](pictures/usa_230_sband_test.jpg)
 
 If you don't want to change the settings every time you need to test something, I have attached a SatDump pipeline for this satellite. You can copy it to `satdump/resources/pipelines` directory if you'd like to use it.  
-Assemble your S-Band setup, set the frequency to 2262.5 MHz, start the pipeline and point your dish at SBIRS-GEO 1 (USA 230). Once you get a SNR readout, you can start adjusting the focal point for best SNR.
+Assemble your S-Band setup, set the frequency to 2262.5 MHz, start the pipeline and point your dish at one of SBIRS-GEO satellites. All of them use the same frequency and modulation. Once you get a SNR readout, you can start adjusting the focal point for best SNR.
 If your SDR has a DC spike, offset tuning and DC Blocking are advised.
+
+![](pictures/sbirs_geo_test.jpg)
 
 ## Weather satellite benchmarks
 
